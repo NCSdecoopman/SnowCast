@@ -30,7 +30,8 @@ Thumbs.db
 *.log
 
 # Project data (raw, processed, intermediate, results)
-/data/
+/data/*
+!/data/.keep
 
 # Virtual environments and Python environment folders
 venv/
@@ -42,4 +43,3 @@ env/
 */env/
 */.env/
 
-!.keep
